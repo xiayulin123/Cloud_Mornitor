@@ -1,6 +1,6 @@
 import boto3
 
-ecr_clien = boto3.client('ecr')
+ecr_client = boto3.client('ecr')
 repository_name = "my-cloud-native-repo"
 
 response = ecr_lient.create_repository(
